@@ -1,3 +1,6 @@
+
+![Gloc](https://github.com/user-attachments/assets/589ff799-20f5-4116-abd0-c64a32aaee7e)
+
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
