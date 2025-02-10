@@ -256,7 +256,7 @@ const Background = () => {
         color: '#ff00ff',
         linkingURI: 'yourSchemeHere://chat/jane',
         parameters: {
-            delay: 300000,
+            delay: 5000,
         },
     };
 
@@ -305,7 +305,7 @@ const Background = () => {
     <SafeAreaView style={styles.container}>
         
 
-        <Text style={styles.title}>Start Sending Your Current Location In Every 10 Minutes</Text>
+        <Text style={styles.title}>Start Sending Your Current Location In Every 5 Seconds</Text>
         <View style={styles.buttonContainer}>
             <TouchableOpacity style={styles.start_btn} onPress={startbackgroundservice}>
                 <Text style={styles.buttonText}>Start</Text>
@@ -447,7 +447,7 @@ const styles = StyleSheet.create({
         marginBottom: 10,
     },
     text: {
-        fontSize: 16,
+        fontSize: 14,
         color: '#333',
         fontWeight: 'bold',
         marginHorizontal: 10,

@@ -9,8 +9,8 @@ const Sendcard = ({ latitude, longitude, time }) => {
         <View style={styles.textContainer}>
           <Text style={styles.latitude}>Latitude: {latitude}</Text>
           <Text style={styles.longitude}>Longitude: {longitude}</Text>
-            <Text style={styles.time_val}>Time: {time}</Text>
-            <Text style={styles.status}>Successful</Text>
+          <Text style={styles.time_val}>Time: {time}</Text>
+          <Text style={styles.status}>Successful</Text>
         </View>
       </View>
     );
@@ -64,7 +64,7 @@ const Sendcard = ({ latitude, longitude, time }) => {
       borderColor: '#ccc',
       borderRadius: 5,
       paddingHorizontal: 8,
-      paddingVertical: 4,
+      paddingVertical: 2,
       marginBottom: 5,
       fontWeight: '600',
       fontSize: 12,
